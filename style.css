@@ -1,0 +1,53 @@
+body {
+    height: 1000px;
+    background-color: black;
+}
+
+#sidebar section, #main-section {
+    background-color: whitesmoke;
+    margin: 15px 0;
+}
+
+.content-spacing {
+    padding: 20px 20px;
+}
+
+.gallery-spacing {
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+p {
+    margin: 15px 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#subscribe {
+    background-color: red;
+    padding: 10px 10px;
+    margin: 10px 10px
+   
+}
+
